@@ -1,0 +1,104 @@
+.App{
+  position:fixed;
+
+}
+
+.queue-element-container {
+  position: relative;
+}
+  #queue-container {
+    margin-top:150px;
+    margin-left: 20px;
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-x: auto;
+  }
+  .queue-element {
+    width: 100px;
+    height: 50px;
+    background-color: #3498db;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+    border: 3px solid black;
+  }
+
+  /* .index-element{
+    color: #000000;
+    font-size: 20px;
+    margin-top: 5px;
+
+   } */
+   .element-index{
+    margin-left: 45px;
+    font-size: 25px;
+    /* margin-right: 5px; */
+    margin-top: 10px;
+   }
+
+  #input-form {
+    display: flex;
+    margin-bottom: 20px;
+  }
+
+  #input-value {
+    margin-right: 10px;
+  }
+
+  #enqueue-button, #dequeue-button {
+    cursor: pointer;
+    padding: 8px;
+    font-size: 14px;
+  }
+
+  .queue-definition {
+    margin-top:40px;
+    display: grid;
+    align-items:center;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .queue-visualizer{
+    border: 2px solid black;
+    width: 100%; 
+    max-width: 650px;
+    height: 450px;
+  }
+
+  .main{
+    display:flex;
+  }
+
+  #showContainer{
+    border: 2px solid black;
+    width:100%;
+    max-width: 650px;
+    height:450px;
+    padding-top: 10px;
+    justify-content: center;
+    overflow-y:auto;
+    text-align: center;
+  }
+
+  @media only screen and (max-width:650px) {
+    .main{
+      width: 100%;
+       display: flex;
+       flex-direction: column;
+  
+    }
+  
+    .App{
+      position:relative;
+  
+    }
+
+  }
+
+
+  

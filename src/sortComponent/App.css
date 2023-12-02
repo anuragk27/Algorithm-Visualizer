@@ -1,0 +1,41 @@
+/* src/styles/App.css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .block {
+    width: 27px;
+    background-color: #0a0a0a;
+    position:absolute;
+    bottom: 10%;
+    margin:5px;
+    margin-right:40% ;
+    transition: 0.2s all ease;
+    border-radius: 5px;
+  }
+  
+  .block_id {
+    position:absolute;
+    color: black;
+    margin-top: -25px;
+    width: 100%;
+    text-align: center;
+  }
+  /* src/styles/App.css */
+/* ... existing styles ... */
+
+.center-array {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.App{
+  /* margin-top: 0px; */
+  margin-bottom: 400px;
+  /* margin-left:-100px; */
+}
+
+  
