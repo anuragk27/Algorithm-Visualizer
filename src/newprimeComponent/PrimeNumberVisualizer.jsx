@@ -1,14 +1,16 @@
 // PrimeNumberVisualizer.js
 
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "./PrimeNumberVisualizer.css";
 import Navbar from "./primeNavbar";
 import Menu from "./primeMenu";
 
 function PrimeNumberVisualizer() {
-  const [limit, setLimit] = useState(100);
+  const [limit, setLimit] = useState(50);
   const [showPrimeDefinition, setShowPrimeDefinition] = useState(true);
-
+  const [primeNumbers, setPrimeNumbers] = useState([]);
+  const [visualizationComplete, setVisualizationComplete] = useState(false);
+  
   function sleep(ms) {
     return new Promise((resolve) => setTimeout(resolve, ms));
   }
@@ -26,9 +28,19 @@ function PrimeNumberVisualizer() {
     </div>
   );
 
+  useEffect(() => {
+    if (visualizationComplete) {
+      // Update the message on the screen when primeNumbers state changes
+      const messageContainer = document.getElementById("message");
+      const primeNumbersMessage = `The prime numbers in the range of 2 to ${limit} are: ${primeNumbers.join(", ")} .`;
+      messageContainer.innerText = primeNumbersMessage;
+    }
+  }, [primeNumbers, limit, visualizationComplete]);
+
   async function visualizeSieve() {
 
     setShowPrimeDefinition(false);
+    setPrimeNumbers([]);
 
     const container = document.getElementById("container");
 
@@ -65,9 +77,14 @@ function PrimeNumberVisualizer() {
     for (let i = 2; i <= limit; i++) {
       if (isPrime[i]) {
         container.children[i - 2].classList.add("prime");
+        setPrimeNumbers((prevNumbers) => [...prevNumbers, i]);
         await sleep(100);
       }
     }
+
+  // Set the flag to indicate that visualization is complete
+  setVisualizationComplete(true);
+
   }
 
   return (
@@ -81,8 +98,8 @@ function PrimeNumberVisualizer() {
     {showPrimeDefinition && primeDefinition}
     <div>
       <div id="container"></div>
+      {visualizationComplete && <div style={{textAlign:'center', marginTop:'20px'}} id="message"></div>}
     </div>
-     
     </>
     
   );

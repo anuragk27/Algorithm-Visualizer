@@ -138,6 +138,7 @@ function ArrayVisualizer() {
       ...operations,
       `Value at index ${indexValue} is ${array[indexValue]}`,
     ]);
+    setIndexValue("");
   };
 
   const updateArrayView = () => {

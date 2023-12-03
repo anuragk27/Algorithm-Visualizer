@@ -89,9 +89,30 @@ const ArrayVisualizer = () => {
       if (value === num) {
         indices.push(mid);
         blocks[mid].style.backgroundColor = 'green';
+        
+        // Continue searching on both sides for other occurrences
+        let left = mid - 1;
+        let right = mid + 1;
+  
+        // Search left
+        while (left >= 0 && Number(blocks[left].childNodes[0].innerHTML) === num) {
+          indices.push(left);
+          blocks[left].style.backgroundColor = 'green';
+          left--;
+        }
+  
+        // Search right
+        while (right < blocks.length && Number(blocks[right].childNodes[0].innerHTML) === num) {
+          indices.push(right);
+          blocks[right].style.backgroundColor = 'green';
+          right++;
+        }
+  
+        // Break the loop as we've found all occurrences
+        break;
       }
   
-      if (value >= num) {
+      if (value > num) {
         high = mid - 1;
       } else {
         low = mid + 1;
@@ -101,9 +122,12 @@ const ArrayVisualizer = () => {
     if (indices.length === 0) {
       setSearchResult('Element Not Found');
     } else {
+      // Sort indices in ascending order
+      indices.sort((a, b) => a - b);
       setSearchResult(`Element Found at indices ${indices.join(', ')}`);
     }
   }
+  
   
   async function linearSearch() {
     resetArray();

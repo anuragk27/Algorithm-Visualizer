@@ -8,6 +8,11 @@ const Menu = ({ limit, visualizeSieve,setLimit}) => {
     }
   };
 
+  const handleInputChange = (e) => {
+    const newLimit = parseInt(e.target.value, 10);
+    setLimit(newLimit);
+  };
+
   return (
     <div
       className="nav alert-dark"
@@ -18,7 +23,8 @@ const Menu = ({ limit, visualizeSieve,setLimit}) => {
       <input
           type="text"
           value={limit}
-          onChange={(e) => setLimit(e.target.value)}
+          onChange={handleInputChange}
+          min="1"
           onKeyPress={handleKeyPress1}
           />
       </label>
