@@ -1,12 +1,12 @@
 // import graph from "./images/graph.png";
 import primes from "./images/primes.jpg";
-import sort from "./sort.png";
+import sort from "./images/sorting.png";
 // import queen from "./images/queen.PNG";
 // import binSearch from "./images/binaryTree.png";
 import stack from './images/stack.jpeg';
 import queue from './images/queue1.png';
-import array from './images/array.jpeg';
-import searching from './images/searching.jpeg';
+import array from './images/Array.png';
+import searching from './images/searching.png';
 export function getDetails(){
    return [
         {

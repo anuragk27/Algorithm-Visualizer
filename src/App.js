@@ -3,7 +3,7 @@ import React, {Component} from 'react';
 import {HashRouter as Router, Switch, Route} from 'react-router-dom';
 // import Pathfinder from "./pathfinderComponents/pathfinder";
 import Home from "./homeComponents/home";
-import Seive from "./primeComponents/seive";
+import Seive from "./newprimeComponent/PrimeNumberVisualizer";
 import Sort from "./sortComponent/sortVisualizer";
 import Search from "./searchComponents/Searching";
 import Stack from "./stackComponent/StackVisualizer";
