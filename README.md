@@ -1,7 +1,7 @@
 # Algorithm-Visualizer
 Algorithm Visualizer Created using reactjs.
 Learn and Understand easily the Algorithms by Visualization.
-LIVE DEMO: https://github.com/anuragk27/Algorithm-Visualizer/settings/pages
+LIVE DEMO: https://anuragk27.github.io/Algorithm-Visualizer/#/
 
 Features:
 1.Array Visualizer
