@@ -21,7 +21,7 @@ const ArrayVisualizer = () => {
 
     const blocks = document.querySelectorAll('.block');
     blocks.forEach((block) => {
-      block.style.backgroundColor = 'black';
+    block.style.backgroundColor = 'black';
     });
   }
 

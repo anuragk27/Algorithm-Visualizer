@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 
 const Menu = ({
   randomizeArray,
@@ -26,11 +26,6 @@ const Menu = ({
       <button className="btn btn-primary m-2" onClick={insertionSort} disabled={isSorted || sortingInProgress || isAlreadySorted}>
         Insertion Sort
       </button>
-      {/* <button 
-            className='btn btn-secondary m-2'
-              onClick={quickSort}>
-            Quick Sort
-        </button> */}
     </div>
   );
 };

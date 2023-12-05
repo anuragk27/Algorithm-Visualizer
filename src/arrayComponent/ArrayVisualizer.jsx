@@ -13,7 +13,6 @@ function ArrayVisualizer() {
   const [operations, setOperations] = useState([]); // New state for operations log
 
   const arrayDefinition = (
-    // <div className="centered-container">
     <div className="array-definition">
       <h2 style={{fontFamily:'fantasy',color:'Highlight',fontSize:'70px'}}> ARRAY VISUALIZER</h2>
       <h4 style={{fontFamily:'arial',color:'red', fontWeight:'bold'}}>INSTRUCTIONS TO USE :</h4>
@@ -27,7 +26,6 @@ function ArrayVisualizer() {
         <li>CLICK THE SHOW ELEMENT BUTTON TO SEE THE ELEMENT AT THE INDEX</li>
       </ol>
     </div>
-    // </div>
   );
 
   // used to hide the home screen after the array size is shown
@@ -89,11 +87,6 @@ function ArrayVisualizer() {
     setArray([]);
     setArraySize(newSize);
     setOperations([]); // 1:10
-    // 29/11/2023/11:09
-    // const sizeMessage =
-    //   newSize > 0 ? `The array of size ${newSize} created` : "Array is Empty";
-    // setShowMessage(sizeMessage);
-    // setOperations([...operations, sizeMessage]); // Add size message to operations log
   };
 
   const removeElement = () => {

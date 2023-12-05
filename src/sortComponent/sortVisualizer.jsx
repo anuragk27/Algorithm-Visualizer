@@ -65,11 +65,6 @@ const ArrayVisualizer = () => {
 
     setSortingInProgress(true);
 
-    // if (isAlreadySorted) {
-    //   alert('Array is already sorted!');
-    //   return;
-    // }
-
     const newArray = [...array];
     const n = newArray.length;
 
@@ -110,11 +105,6 @@ const ArrayVisualizer = () => {
     }
 
     setSortingInProgress(true);
-
-    // if (isAlreadySorted) {
-    //   alert('Array is already sorted!');
-    //   return;
-    // }
 
     const newArray = [...array];
     const n = newArray.length;

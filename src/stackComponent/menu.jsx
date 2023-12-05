@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 
 const Menu = ({ push, pop, inputValue, setInputValue, handleSizeChange }) => {
   // Kerboard Events for 'Enter Key'                                                                                                

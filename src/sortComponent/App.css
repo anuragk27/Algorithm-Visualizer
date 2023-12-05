@@ -23,9 +23,7 @@
     width: 100%;
     text-align: center;
   }
-  /* src/styles/App.css */
-/* ... existing styles ... */
-
+ 
 .center-array {
   display: flex;
   justify-content: center;
@@ -33,9 +31,7 @@
 }
 
 .App{
-  /* margin-top: 0px; */
   margin-bottom: 400px;
-  /* margin-left:-100px; */
 }
 
   
