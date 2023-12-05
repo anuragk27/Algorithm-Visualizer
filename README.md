@@ -8,7 +8,7 @@ Learn and Understand easily the **Data Structure & Algorithms** by **Visualizati
 
 https://anuragk27.github.io/Algorithm-Visualizer/#/
 
-#Data Structures and Algorithms added
+# Data Structures and Algorithms added
 
 1.Array Visualizer
 
@@ -22,7 +22,7 @@ https://anuragk27.github.io/Algorithm-Visualizer/#/
 
 6.Prime Numbers
 
-#Features
+# Features
 
 1.User-friendly interface.
 
@@ -34,7 +34,7 @@ https://anuragk27.github.io/Algorithm-Visualizer/#/
 
 5.Each-Step Explanation.
 
-#Acknowledgement:
+# Acknowledgement:
 
 I took inspirations from the following sources and i really appreciate it.
 
