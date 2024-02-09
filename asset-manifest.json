@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/Algorithm-Visualizer/static/css/main.6580b6eb.css",
+    "main.js": "/Algorithm-Visualizer/static/js/main.d00c031e.js",
+    "static/js/377.7868c957.chunk.js": "/Algorithm-Visualizer/static/js/377.7868c957.chunk.js",
+    "static/media/primes.jpg": "/Algorithm-Visualizer/static/media/primes.72a2f33f5a4082a9b6d5.jpg",
+    "static/media/graph.png": "/Algorithm-Visualizer/static/media/graph.6e6849d509319f9d8c82.png",
+    "static/media/searching.png": "/Algorithm-Visualizer/static/media/searching.ce8fff4f1aed6d8a51f5.png",
+    "static/media/sorting.png": "/Algorithm-Visualizer/static/media/sorting.e476aa7e04e1426eab23.png",
+    "static/media/stack.jpeg": "/Algorithm-Visualizer/static/media/stack.db861a2c46f84a173111.jpeg",
+    "static/media/roboto-all-400-italic.woff": "/Algorithm-Visualizer/static/media/roboto-all-400-italic.63782d1445ad031af14d.woff",
+    "static/media/roboto-all-400-normal.woff": "/Algorithm-Visualizer/static/media/roboto-all-400-normal.b5a0a0df312d3423493b.woff",
+    "static/media/roboto-latin-400-italic.woff2": "/Algorithm-Visualizer/static/media/roboto-latin-400-italic.d022bc70dc1bf7b3425d.woff2",
+    "static/media/roboto-cyrillic-ext-400-italic.woff2": "/Algorithm-Visualizer/static/media/roboto-cyrillic-ext-400-italic.c30985e07ee67f55f3e8.woff2",
+    "static/media/queue1.png": "/Algorithm-Visualizer/static/media/queue1.127e1a7c7737de80da3a.png",
+    "static/media/roboto-latin-400-normal.woff2": "/Algorithm-Visualizer/static/media/roboto-latin-400-normal.176f8f5bd5f02b3abfcf.woff2",
+    "static/media/roboto-cyrillic-ext-400-normal.woff2": "/Algorithm-Visualizer/static/media/roboto-cyrillic-ext-400-normal.dd55ea0a2e90d5d86e15.woff2",
+    "static/media/roboto-latin-ext-400-italic.woff2": "/Algorithm-Visualizer/static/media/roboto-latin-ext-400-italic.5ed4cf182892091e3b75.woff2",
+    "static/media/roboto-latin-ext-400-normal.woff2": "/Algorithm-Visualizer/static/media/roboto-latin-ext-400-normal.dcc07bcfcd475f34f20b.woff2",
+    "static/media/roboto-cyrillic-400-italic.woff2": "/Algorithm-Visualizer/static/media/roboto-cyrillic-400-italic.7270d0dbb41cca30909b.woff2",
+    "static/media/roboto-cyrillic-400-normal.woff2": "/Algorithm-Visualizer/static/media/roboto-cyrillic-400-normal.3605d18d8a4ce5bd39c3.woff2",
+    "static/media/roboto-greek-400-italic.woff2": "/Algorithm-Visualizer/static/media/roboto-greek-400-italic.aeaac920d76d2f3697ca.woff2",
+    "static/media/roboto-greek-400-normal.woff2": "/Algorithm-Visualizer/static/media/roboto-greek-400-normal.352cc77aaed5208ce13c.woff2",
+    "static/media/roboto-vietnamese-400-italic.woff2": "/Algorithm-Visualizer/static/media/roboto-vietnamese-400-italic.d8e5b781ee65ffb7d167.woff2",
+    "static/media/roboto-vietnamese-400-normal.woff2": "/Algorithm-Visualizer/static/media/roboto-vietnamese-400-normal.52cebac009baf5592e7d.woff2",
+    "static/media/roboto-greek-ext-400-italic.woff2": "/Algorithm-Visualizer/static/media/roboto-greek-ext-400-italic.26c1478a1bb6b2c2c6b0.woff2",
+    "static/media/roboto-greek-ext-400-normal.woff2": "/Algorithm-Visualizer/static/media/roboto-greek-ext-400-normal.bc7ace6e50c7d9d4d959.woff2",
+    "index.html": "/Algorithm-Visualizer/index.html",
+    "main.6580b6eb.css.map": "/Algorithm-Visualizer/static/css/main.6580b6eb.css.map",
+    "main.d00c031e.js.map": "/Algorithm-Visualizer/static/js/main.d00c031e.js.map",
+    "377.7868c957.chunk.js.map": "/Algorithm-Visualizer/static/js/377.7868c957.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6580b6eb.css",
+    "static/js/main.d00c031e.js"
+  ]
+}
