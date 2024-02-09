@@ -4,10 +4,6 @@
 
 Learn and Understand easily the **Data Structure & Algorithms** by **Visualization**.
 
-**LIVE DEMO**
-
-https://anuragk27.github.io/Algorithm-Visualizer/#/
-
 # Data Structures and Algorithms added
 
 1.Array Visualizer
