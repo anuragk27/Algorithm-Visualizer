@@ -58,5 +58,10 @@ I took inspirations from the following sources and i really appreciate it.
 
 3.Algorithm Visualizer (tamim ehnsan).
 
+# How to Run:
+1. Clone the Repo
+2. npm i (npm i --force)
+3. npm start
+
 
 
