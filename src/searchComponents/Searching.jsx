@@ -4,7 +4,7 @@ import Navbar from './Nav'; // Import the Navbar component
 import Menu from './men';
 import './App.css';
 
-const ArrayVisualizer = () => {
+const Searching = () => {
   const initialArray = generateRandomArray();
   const [array, setArray] = useState(initialArray);
   const [searchValue, setSearchValue] = useState('');
@@ -196,4 +196,4 @@ const ArrayVisualizer = () => {
   );
 };
 
-export default ArrayVisualizer;
+export default Searching;

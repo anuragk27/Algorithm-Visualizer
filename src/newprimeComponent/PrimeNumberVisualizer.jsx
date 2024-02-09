@@ -17,7 +17,7 @@ function PrimeNumberVisualizer() {
 
   const primeDefinition = (
     <div className="prime-definition">
-      <h2 style={{fontFamily:'fantasy',color:'Highlight',fontSize:'70px'}}> ARRAY VISUALIZER</h2>
+      <h2 style={{fontFamily:'fantasy',color:'Highlight',fontSize:'70px'}}> PRIME NUMBER</h2>
       <h4 style={{fontFamily:'arial',color:'red', fontWeight:'bold'}}>INSTRUCTIONS TO USE :</h4>
       <ol style={{fontFamily:'arial',fontSize:'23px'}}>
         <li>ENTER THE LIMIT UNTIL WHICH YOU WANT PRIME NUMBERS </li>

@@ -3,28 +3,31 @@
     position:fixed;
 
   }
-
- 
+  
   #array-container {
     margin-top:150px;
     margin-left: 10px;
+    margin-right: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
     overflow-x: auto;
+    width: fit-content;
     
   }
   
   .array-element {
-    width: 100px; /* Adjusted width of each array element */
+    width: 100%; 
+    width: auto;
     height: 50px;
     background-color: #3498db;
     color: #fff;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 0px;
+    margin-left: auto;
     border: 3px solid black;
+    overflow-x: auto;
   }
   
   
@@ -76,5 +79,8 @@
   width: 100%; /* Adjusted width to 100% */
   max-width: 650px;
   height: 450px;
+ overflow-x: auto;
 }
+
+
   
