@@ -5,11 +5,11 @@ class Greet extends Component {
         return (
             <div className="greet">
                 <h1 className="display-3" style={{fontFamily:'fantasy'}}>
-                    Algorithm Visualizer
+                    DSA Visualizer
                 </h1>
                 <hr className="dropdown-divider"/>
                 <h1 className="display-5" style={{fontFamily:'serif'}}>
-                    Visualize algorithms for a better understanding
+                    Visualize DSA for better understanding
                 </h1>
             </div>
         );

@@ -2,13 +2,13 @@
 .type{
     width: 100%;
     align-content: center;
-    background-color: #282c34;
+    background-color: #fdfdff;
     text-align: center;
     font-family: "Roboto Slab ExtraLight";
 }
 
 .Cards{
-    background-color: rgb(211, 211, 211);
+    background-color: rgb(177, 237, 255);
     align-items: center;
     align-self: center;
     align-content: center;
@@ -24,7 +24,7 @@
 }
 .greet{
     text-align: center;
-    background-color: #434445;
-    color: white;
+    background-color: #5a5858;
+    color: rgb(255, 255, 255);
     padding: 10px;
 }
