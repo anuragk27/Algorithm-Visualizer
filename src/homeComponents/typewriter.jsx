@@ -11,7 +11,7 @@ class TypeWriterC extends Component {
                 <span className="badge badge-dark">
                 <Typewriter
                     options={{
-                        strings: ['Array','LinkedList','Searching','Sorting','Stack','Queue','Prime Number','BST','B Tree','BFS','DFS','AVL Tree'],
+                        strings: ['Array','Searching','Sorting','Stack','Queue','Prime Number'],
                         autoStart: true,
                         loop: true,
                     }}

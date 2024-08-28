@@ -17,7 +17,6 @@
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-flip-move": "^3.0.4",
-    "react-ga": "^3.3.1",
     "react-github-btn": "^1.2.0",
     "react-mt-svg-lines": "^0.9.1",
     "react-router": "^6.2.1",
